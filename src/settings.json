@@ -1,0 +1,16 @@
+{
+	"games": [
+		{
+			"name": "Plastiroid",
+			"command": "../Plastiroid/Plastiroid/Builds/plastiroid.app/Contents/MacOS/plastiroid"
+		},
+		{
+			"name": "Plastic Beach",
+			"command": "../PLASTIC_BEACH/Builds/plasticbeach.app/Contents/MacOS/plasticbeach"
+		},
+		{
+			"name": "Call of du Tri",
+			"command": "../CallOfDuTri/Call_of_du_Tri/Builds/CallOfDuTri.app/Contents/MacOS/CallOfDuTri"
+		}
+	]
+}
