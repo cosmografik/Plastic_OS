@@ -2,15 +2,15 @@
 	"games": [
 		{
 			"name": "Plastiroid",
-			"command": "../Plastiroid/Plastiroid/Builds/plastiroid.app/Contents/MacOS/plastiroid"
+			"command": "start \"\" /B /WAIT Plastiroid/Plastiroid.exe -gametime 120 -output ./Plastic_OS/src/saves/plastiroid.json"
 		},
 		{
 			"name": "Plastic Beach",
-			"command": "../PLASTIC_BEACH/Builds/plasticbeach.app/Contents/MacOS/plasticbeach"
+			"command": "start \"\" /B /WAIT PlasticBeach/PlasticBeach.exe -gametime 120 -output ./Plastic_OS/src/saves/plasticbeach.json"
 		},
 		{
 			"name": "Call of du Tri",
-			"command": "../CallOfDuTri/Call_of_du_Tri/Builds/CallOfDuTri.app/Contents/MacOS/CallOfDuTri"
+			"command": "start \"\" /B /WAIT CallOfDuTri/CallOfDuTri.exe -gametime 120 -output ./Plastic_OS/src/saves/callofdutri.json"
 		}
 	]
 }

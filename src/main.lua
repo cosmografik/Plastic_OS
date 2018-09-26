@@ -1,4 +1,12 @@
-
+scalo = 2
+gw = love.graphics.getWidth
+gh = love.graphics.getHeight
+love.graphics.getWidth = function()
+	return gw()/scalo
+end
+love.graphics.getHeight = function()
+	return gh()/scalo
+end
 
 function love.load(arg)
 
